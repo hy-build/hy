@@ -1,0 +1,86 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: rgb(48, 48, 48);
+            ;
+        }
+        
+        .main {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -200px;
+            margin-top: -200px;
+        }
+        
+        .main img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .hour,
+        .minute,
+        .second {
+            width: 20px;
+            height: 280px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top: -140px;
+            margin-left: -10px;
+        }
+        
+        .s {
+            width: 2px;
+            height: 168px;
+            background-color: hotpink;
+            margin-left: 9px;
+            z-index: 5;
+        }
+        
+        .m {
+            width: 2px;
+            height: 140px;
+            background-color: moccasin;
+            margin-left: 9px;
+            margin-top: 28px;
+            z-index: 10;
+        }
+        
+        .h {
+            width: 2px;
+            height: 112px;
+            background-color: springgreen;
+            margin-left: 9px;
+            margin-top: 56px;
+            z-index: 15;
+        }
+        
+        .circle {
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -5px;
+            margin-top: -5px;
+            z-index: 20;
+        }
+        
+        .time {
+            width: 400px;
+            height: 200px;
+            position: absolute;
+            left: 20px;
+            bottom: 100px;
+            color: white;
+            font-size: 80px;
+        }
